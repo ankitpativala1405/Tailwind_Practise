@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Component 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
   <link rel="stylesheet" href="../src/output.css" />
 </head>
@@ -36,10 +39,27 @@
           </div>
           <div class="flex flex-col my-7">
             <h3 class="font-bold my-2">Account</h3>
-            <button class="py-2 px-4 border-2 border-purple-400 font-semibold rounded-md mb-3">Sign Up</button>
-            <button class="py-2 px-4 rounded-md bg-purple-400 text-white font-semibold">Sign In</button>
+            <button class="py-2 px-4 border-2 border-purple-400 font-semibold rounded-md mb-3 hover:bg-purple-400 hover:text-white transition-all duration-300">Sign Up</button>
+            <button class="py-2 px-4 rounded-md bg-purple-400 border-2 text-white font-semibold hover:bg-white hover:text-black hover:border-purple-400 transition-all duration-300">Sign In</button>
           </div>
         </div>
+
+        <hr class="border-gray-300 my-5">
+
+        <div class="flex flex-col gap-2 justify-center items-center p-4">
+          <p>Sitemap,Privacy &copy; Robowolf,saint-peterburg</p>
+          <div class="flex gap-4">
+            <div class="bg-gray-200 rounded-full w-[40px] h-[40px] flex items-center justify-center p-2 hover:bg-purple-400 hover:text-white transition-all duration-300">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="bg-gray-200 rounded-full w-[40px] h-[40px] flex items-center justify-center p-2 hover:bg-purple-400 hover:text-white transition-all duration-300">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="bg-gray-200 rounded-full w-[40px] h-[40px] flex items-center justify-center p-2 hover:bg-purple-400 hover:text-white transition-all duration-300">
+            <i class="fa-brands fa-google"></i>
+          </div>
+        </div>
+
       </footer>
     </div>
   </div>
